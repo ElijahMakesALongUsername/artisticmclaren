@@ -1,0 +1,108 @@
+body {
+    background-color: #262626;
+}
+
+@font-face {
+    font-family: varrnd;
+    src: url('VarelaRound-Regular.ttf');
+}
+
+h1 {
+    text-align: center;
+    font-family: varrnd;
+    color:white;
+}
+
+p {
+    text-align: center;
+    font-family: varrnd;
+    color:white;
+}
+
+h2 {
+    text-align: center;
+    font-family: varrnd;
+    color:white;
+}
+
+h3 {
+    text-align: center;
+    font-family: varrnd;
+    color:white;
+}
+
+.shadow {
+    text-shadow: 3px 3px #000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #33333300;
+  }
+  
+  li {
+    float: left;
+}
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: varrnd;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #000000;
+}
+
+.ipl {
+    text-align: center;
+    font-family: varrnd;
+    color:white;
+    text-decoration: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+span {
+    font-family: varrnd;
+    color:white;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #00000000;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #3e3e3e;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #494949;
+}
+
+.download {
+    color: white;
+}
+
+a:has(.download) {
+    font-family: vrrnd;
+}
