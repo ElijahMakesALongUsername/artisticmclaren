@@ -106,3 +106,10 @@ span {
 a:has(.download) {
     font-family: vrrnd;
 }
+
+
+.ipl-404 {
+    text-align: center;
+    font-family: varrnd;
+    color:white;
+}
